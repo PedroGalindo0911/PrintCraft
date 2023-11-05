@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0; /* Añade padding: 0 para asegurar que no haya espacio adicional */
+  background: linear-gradient(to right, #001f3f, #693DAE);
+  color: #FFF !important;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(257px, 20px));
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+/* Estilo del scrollbar */
+::-webkit-scrollbar {
+  background-color: #693DAE; /* Color del track */
+  width: 8.2px !important;
+}
+
+/* Estilo del "thumb" (la parte deslizante) del scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #454546; /* Color del "thumb" */
+  border-radius: 6px; /* Bordes redondeados del "thumb" */
+  
+}
+
+/* Estilo del track (la pista) del scrollbar */
+::-webkit-scrollbar-track {
+  border-radius: 6px !important;
+}
