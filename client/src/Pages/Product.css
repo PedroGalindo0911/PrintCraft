@@ -1,0 +1,25 @@
+.arrow{
+    margin-top: 30px !important;
+    margin-left: 1.5rem;
+}
+
+.producto{
+    margin-top: 3% !important;
+}
+.producttext{
+    margin-top: 1.8% !important;
+}
+
+.animation {
+    opacity: 0;
+    animation: fadeInAnimation 1.5s ease forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

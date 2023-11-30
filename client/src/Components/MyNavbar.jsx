@@ -30,7 +30,7 @@ const MyNavbar = () => {
     <nav className="navbar">
       <div className="navbar-brand">PRINTCRAFT</div>
       <div className="navbar-items">
-        <a href="/catalog">Catálogo</a>
+        <a href="/">Catálogo</a>
         <a href="/quote">Cotización</a>
         <a href="/about-us">Sobre Nosotros</a>
       </div>

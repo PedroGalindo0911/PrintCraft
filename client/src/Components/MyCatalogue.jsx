@@ -44,7 +44,7 @@ const MyCatalogue = (props) => {
             <div className='productPrice'>Precio de Impresión Q{props.price}</div>
           </div>
           {isHovered && (
-            <Link to={`/productos/${props.code}`}>
+            <Link to={`/${props.code}`}>
               <button className='detailsButton'>Ver Detalles</button>
             </Link>
           )}

@@ -5,7 +5,7 @@ body {
   color: #FFF !important;
 }
 
-.App {
+.home {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 20px));
   justify-content: space-evenly;

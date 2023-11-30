@@ -1,6 +1,6 @@
-/* Navbar styles */
+
 .navbar {
-    background-color: rgba(51, 51, 51, 0.05); /* Fondo transparente con un 50% de opacidad */
+    background-color: rgba(51, 51, 51, 0.05); 
     color: white !important;
     padding: 10px 0;
   }
@@ -12,7 +12,7 @@
     margin: 0 3%;
   }
   
-  /* Navbar brand */
+  
   .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
@@ -20,7 +20,7 @@
     margin-left: 3%;
   }
   
-  /* Navbar items */
+ 
   .navbar-items {
     display: flex;
     gap: 20px;
@@ -31,18 +31,18 @@
     color: white;
     text-decoration: none;
     font-size: 1rem;
-    transition: transform 0.2s ease-in-out; /* Transición de tamaño durante 0.2 segundos */
+    transition: transform 0.2s ease-in-out; 
   }
 
   .navbar-items a:hover  {
     
-    transform: scale(1.1); /* Hace que el texto crezca un 10% al pasar el mouse */
+    transform: scale(1.1); 
   }
   
 
   
   
-  /* Navbar text */
+  
   .navbar-text {
     margin-left: auto;
     
@@ -52,7 +52,7 @@
     margin-right: 5%;
     margin-left: 1%;
   }
-  /* Navbar logout */
+  
   .navbar-logout a {
     margin-right: 2%;
     text-decoration: none;
@@ -61,7 +61,7 @@
 
   
 
-  /* MyNavbar.css */
+ 
 .dropdown {
     position: relative;
     display: inline-block;
@@ -77,14 +77,13 @@
   .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: rgba(51, 51, 51, 0.6) !important; /* Fondo transparente con un 70% de opacidad */
-    min-width: 120px;
+    background-color: rgba(51, 51, 51, 0.6) !important; 
     font-size: 1rem;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    right: 50%; /* Posiciona el menú en el centro horizontal */
-    transform: translateX(29%); /* Ajusta la posición horizontal */
-    top: 100%; /* Coloca el menú justo debajo del icono */
+    right: 50%; 
+    transform: translateX(29%); 
+    top: 100%; 
   }
   .dropdown-menu a {
     color: white;
@@ -94,7 +93,7 @@
   }
   
   .dropdown-menu a:hover {
-    background-color: rgba(51, 51, 51, 0.1); /* Cambia el color al pasar el mouse */
+    background-color: rgba(51, 51, 51, 0.1);
   }
 
   .logout:hover{
@@ -118,7 +117,7 @@
   }
   
   
-  /* Responsive styles */
+  
   @media (max-width: 600px) {
     .navbar-items {
       display: none;

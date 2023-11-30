@@ -1,28 +1,20 @@
 import React from 'react';
 import './App.css';
-import MyNavbar from './Components/MyNavbar';
-import MyCatalogue from './Components/MyCatalogue';
-import contents from './content';
+import HomePage from './Pages/HomePage';
+import ProductDetails from './Pages/ProductDetails';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <MyNavbar />
-      <div className='App'>
-        {contents.map(content => (
-          <MyCatalogue
-            key={content.id}
-            code={content.code}
-            image={content.image}
-            name={content.name}
-            price={content.price}
-            totalSales={content.totalSales}
-            timeLeft={content.timeleft}
-            rating={content.rating}
-          />
-        ))}
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={<HomePage />}
+        />
+        <Route path="/:code" element={<ProductDetails />} />
+      </Routes>
+    </Router>
   );
 }
 
